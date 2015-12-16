@@ -11,7 +11,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar">
+        <img src="{{ site.resume_social_links.resume_github_url }}.png" alt="my photo" class="avatar">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -27,7 +27,21 @@
         </div>
 
         <div class="executive-summary">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          <p>
+            <a href="https://www.openhub.net/accounts/8918?ref=Detailed" target="_blank">
+              <img src="https://www.openhub.net/accounts/8918/widgets/account_detailed.gif" width="230" height="35"
+                   alt="Open Hub profile for Jon Ander Pe&#241;alba"
+                   title="Open Hub profile for Jon Ander Pe&#241;alba" />
+            </a>
+          </p>
+
+          <p>
+            <a href="http://stackoverflow.com/users/2437528" target="_blank">
+              <img src="http://stackoverflow.com/users/flair/2437528.png" width="208" height="58"
+                   alt="profile for Jon Ander Pe&#241;alba at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+                   title="profile for Jon Ander Pe&#241;alba at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
+            </a>
+          </p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -224,8 +238,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Template by <a href="http://twitter.com/jglovier">@jglovier</a> available at <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
       </footer>
 
     </div>
