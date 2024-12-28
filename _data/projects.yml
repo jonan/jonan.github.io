@@ -1,0 +1,16 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# jazznotes.io
+- project: ForkHub
+  role: Lead Developer
+  duration: Nov, 2014 &mdash; Present
+  # url: "#"
+  description: <a href="https://github.com/jonan/ForkHub">ForkHub</a> is an Android app for GitHub that started out as a fork of the official app once this one was abandoned, and has now become one of the most popular GitHub apps for Android.</p><div class="appbrain-app"><a href="http://www.appbrain.com/app/jp.forkhub" style="font-size: 11px; color: #555; font-family: Arial, sans-serif;">ForkHub</a></div>
+
+# Springfield Community Outreach Group
+- project: A Color Story
+  role: Main Android Developer
+  duration: May, 2015 &mdash; Dec, 2015
+  # url: "#"
+  description: <a href="https://play.google.com/store/apps/details?id=com.acolorstory">A Color Story</a> is a photo editing app for Android.</p><div class="appbrain-app"><a href="http://www.appbrain.com/app/com.acolorstory" style="font-size: 11px; color: #555; font-family: Arial, sans-serif;">A Color Story</a></div>
